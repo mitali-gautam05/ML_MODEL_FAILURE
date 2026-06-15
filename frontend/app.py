@@ -4,7 +4,7 @@ import pandas as pd
 import plotly.graph_objects as go
 import plotly.express as px
 
-API = "http://localhost:8000"
+API = "https://mitali1234-when-ml-fails-api.hf.space"
 
 st.set_page_config(
     page_title="When ML Fails",
@@ -17,7 +17,8 @@ st.markdown("""
 <style>
 .danger-card{background:#fff5f5;border-left:4px solid #e53e3e;border-radius:10px;padding:1rem 1.5rem;margin-bottom:.5rem}
 .success-card{background:#f0fff4;border-left:4px solid #38a169;border-radius:10px;padding:1rem 1.5rem;margin-bottom:.5rem}
-.finding-box{background:#fffbeb;border:1px solid #f6ad55;border-radius:8px;padding:1rem;margin:.5rem 0}
+.finding-box{background:#2d2d2d;border:1px solid #f6ad55;border-radius:8px;padding:1rem;margin:.5rem 0;color:#ffffff !important}
+.finding-box b{color:#f6ad55}
 </style>
 """, unsafe_allow_html=True)
 
